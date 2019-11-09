@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "ingredients",
+  "info": {
+    "name": "ingredient",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
